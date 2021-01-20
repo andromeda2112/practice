@@ -11,7 +11,7 @@ frontend:
       commands: [npm run-script build]
   artifacts:
     # IMPORTANT - Please verify your build output directory
-    baseDirectory: ./Solution1/angular-tour-of-heroes
+    baseDirectory: ./Solution1/angular-tour-of-heroes/dist/angular-tour-of-heroes
     files:
       - '**/*'
   cache:
